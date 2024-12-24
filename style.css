@@ -1,0 +1,76 @@
+body{
+  margin: 5px;
+  display: flex;
+  gap: 10px;  
+  justify-content: center;
+  align-items: flex-start;
+  line-height: 1.2;
+  color: #333;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #14213d;
+}
+.product-img{
+  border: 4px solid #774936;
+  max-width: 400px;
+  height: auto; 
+}
+.review{
+  display: flex;
+  max-width: 800px;
+  gap: 10px;
+  width: 90%; 
+}
+.border-u{
+  flex: 1 1 250px;
+  border: 2px dotted green;
+  padding: 5px;
+  background: lightblue;
+  color: green;
+  max-width: 30%;
+}
+.price{
+  font-size: 2rem;
+  color: #ff6d00;
+}
+.color-label{
+  color: #14213d;
+}
+.color-dropdown{
+  width: 80px;
+  padding: 3px 5px;
+  background: #ccdbdc;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button{
+  width: 180px;
+  background: #0077b6;
+  padding: 12px 0px;
+  color: #03045e;
+  font-weight: bold;
+  border: 2px solid purple;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+a{
+  color: #007bff;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+  text-decoration: none;
+}
+button:hover {
+  background-color: blue;
+  transform: scale(1.05);
+  color: white;
+}
+a:hover {
+  color: #0056b3; 
+  text-decoration: underline;
+}
+.color-dropdown:hover{
+  border: 2px grey solid;
+}
